@@ -1,0 +1,42 @@
+# ---- 本机配置（模板 dataset.path.example 会提交）----
+dataset.path
+
+# ---- IDE ----
+.idea/
+.run/
+.vscode/
+.venv/
+venv/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 数据与产物（索引 csv 与 results/*.json 体积小，保留）----
+data/cache/
+data/preview*.png
+data/view_*.html
+*.pt
+*.pth
+*.onnx
+
+# ---- 训练日志 ----
+runs_*.log
+*.log
+
+# ---- 不随代码公开的内部材料 ----
+# 论文源文件（含作者邮箱、单位、基金号）与内部审稿笔记
+paper/
+PYCHARM.md
+TRANSFER.md
+MANIFEST.txt
+export_bundle.py
+fix_pycharm_sdk.py
+make_zh_reader.py
+make_fig_arch_old.py
+make_fig_arch_v1_old.py
+_fix_img.py
+_fix_tables.py
+_stats_for_review.py

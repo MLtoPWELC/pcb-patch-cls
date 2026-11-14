@@ -1,0 +1,4 @@
+# Copy this file to `dataset.path` and put the absolute path of Data_COCO on the first line.
+# The directory must contain annotations/, train2017/ and val2017/.
+# Example: /data/DsPCBSD+/Data_COCO
+# Alternatively set the PCB_DATA environment variable; it takes precedence.

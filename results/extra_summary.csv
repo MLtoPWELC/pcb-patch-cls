@@ -1,0 +1,5 @@
+tag,task,model,aux,width,se,gray,input_size,csv,params,macs_M,latency_ms,acc,f1,auc,fpr@r95,mAP,macro_f1,subset_acc,tuned_thresh,tuned_macro_f1
+binary_lightpcb_aux-none_w1.0_s42_gray,binary,lightpcb,none,1.0,False,True,96,patches_binary.csv,33420,2.747,1.316,0.9621,0.9571,0.9929,0.0265,,,,,
+binary_lightpcb_aux-none_w1.0_s42_in64,binary,lightpcb,none,1.0,False,False,64,patches_binary.csv,33474,1.272,1.355,0.9571,0.9516,0.9898,0.0393,,,,,
+multi9_lightpcb_aux-none_w1.0_s42_gray,multi9,lightpcb,none,1.0,False,True,96,patches_multi9.csv,34196,2.748,1.55,,,,,0.7518,0.65,0.3169,0.75,0.6918
+multi9_lightpcb_aux-none_w1.0_s42_in64,multi9,lightpcb,none,1.0,False,False,64,patches_multi9.csv,34250,1.273,1.354,,,,,0.7224,0.6305,0.296,0.7,0.6763
